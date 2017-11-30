@@ -7,10 +7,6 @@ y <- beta[1] + beta[2] * x   + rnorm(n)
 # Plot
 plot(x, y, pch=20, col="red")
 
-# Histogram of y values
-hist(y)
->>>>>>> modeling
-
 # Fit a model
 g <- lm(y ~ x)
 summary(g)
