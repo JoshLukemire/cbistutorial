@@ -10,3 +10,9 @@ plot(x, y, pch=20,col='red')
 # model
 g=lm(y~x)
 summary(g)
+
+#function fit linear model and plot
+model.plot<-function(y,x){
+  fit=lm(y~x)
+  fit
+}
