@@ -5,5 +5,8 @@ beta <- runif(2, -3, 3)
 y <- beta[1] + beta[2] * x   + rnorm(n)
 
 # Plot
-plot(x, y, pch=20)
+plot(x, y, pch=20, col="red")
+
+# Histogram
+hist(y)
 
